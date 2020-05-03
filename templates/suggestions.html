@@ -1,0 +1,36 @@
+ {% extends "layout.html"%}
+ {% block content%}
+<div style="">
+
+ <div class="row" >
+ <h2 >   Suggestions </h2>
+
+
+
+ <div class="col-sm-12">
+
+      {% for i in range(8)  %}
+
+    <div class="card"  style="margin:2%; width:80%;margin-left:10%">
+      <div class="card-body">
+        <h5 class="card-title">{{i+1}}. {{suggestions[i]}}</h5>
+
+    <form action="/result" method="get">
+    <button name="forwardBtn" class="btn btn-primary"type="submit" value="{{link[i]}}">Analysis</button>
+</form>
+
+
+
+      </div>
+    </div>
+
+
+
+       {% endfor %}
+
+  </div>
+  </div>
+<br>
+
+</div>
+{% endblock%}

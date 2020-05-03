@@ -1,0 +1,33 @@
+  
+ {% extends "layout.html"%}
+ {% block content%}
+
+
+          <h2>    Review page </h2>
+                <br>
+<div class="row">
+    <div class="col-5" style="position:absolute;top:10%;">
+     <img src="https://image.freepik.com/free-vector/reviews-concept-landing-page_52683-12186.jpg" alt="">
+</div>
+                   <div class="col-5" style="float:right; left:50%; ">
+                    <form action="" method="post">
+
+                    <div class="form-group">
+                        <label for="review">Product</label>
+                        <input type="text" name="review" class="form-control" id="review" placeholder="Enter name of product">
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-dark">Submit</button>
+
+                </form>
+               </div>
+
+</div>
+ <br>
+  {% if reviews %}
+     <p style="font-size:20px;float:right"><br>The credientals is 'sentimentalAnalysis function'  is not entered</p>
+
+{% endif %}
+{% endblock%}

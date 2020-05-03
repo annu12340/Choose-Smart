@@ -1,0 +1,38 @@
+ {% extends "layout.html"%}
+ {% block content%}
+
+
+ <h2> Suggestions </h2>
+
+ <div class="row">
+  <div class="col-sm-12">
+
+   {% for i in range(8)  %}
+
+    <div class="card"  style="margin:2%">
+      <div class="card-body">
+        <h5 class="card-title">{{i+1}}. {{l[i]}}</h5>
+
+    <form action="/priceresult" method="get">
+    <button name="forwardBtn" type="submit" class="btn btn-primary" value="{{link[i]}}">Search price</button>
+</form>
+
+
+
+      </div>
+    </div>
+
+
+
+       {% endfor %}
+  </div>
+  </div>
+<br>
+ <script>
+
+
+ </script>
+
+
+
+{% endblock%}

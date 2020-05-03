@@ -1,0 +1,39 @@
+ {% extends "layout.html"%}
+ {% block content%}
+
+
+ <h2>   Result </h2>
+
+<div class="row" style="background:url('https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?size=626&ext=jpg');margin-bottom:5%">
+    <br>
+     <h4 style="color:#1864ab; padding:5%;"> {{name}} </h4>
+ <img src="{{img}}" alt="">
+    <p  style="font-size:30px;padding:1%;">Score: {{score}}</p>
+
+
+ {% if score >=5 %}
+    <b ><p style="font-size:25px; color:#087f5b;padding-top:10%; ">* The product is safe to buy *
+      </p></b>
+{% else %}
+     <b><p style="font-size:25px; color: #e03131"> * The product is not so safe. Search for other alternatives * </p></b>
+{% endif %}
+    </div>
+
+ <h3>Ingredient Hazards</h3>
+
+
+<table style="width:80%"  class="table table-striped">
+  <tr>
+    <th style="font-size:15px;padding:1%" >High Hazard Concern :</th>
+    <td style="font-size:15px">{{Hconcern}}</td>
+  </tr>
+  <tr>
+    <th style="font-size:15px">Medium Hazard Concern:</th>
+    <td style="font-size:15px"> {{Mconvern}}</td>
+  </tr>
+  <tr>
+    <th style="font-size:15px">Low Hazard Concern:</th>
+    <td style="font-size:15px">{{lconcern}}</td>
+  </tr>
+</table>
+{% endblock%}
