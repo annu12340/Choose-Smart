@@ -1,19 +1,14 @@
 # Choose-Smart
 As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice .
-
-<br/>  
+ 
 The main functionalities 
 
 - Provides insight to the consumer about the hazardous effects of the ingredients
-
 - Suggest the best deal avaiable on popular online shopping platform
-
-- Sentiment analysis of reviews of a product using Twitter API
-
+- Sentiment analysis of reviews of a product using [Twitter API](https://developer.twitter.com/en/docs/twitter-api)
 - Displays all the important laws that a consumer must be aware of
 
-
-<hr>  
+---
 
 ![1](https://user-images.githubusercontent.com/43414928/80920713-58ed2e00-8d8f-11ea-97cf-ba429a2ac4e9.png)
 ![2](https://user-images.githubusercontent.com/43414928/80920715-5ab6f180-8d8f-11ea-9db8-769f8588db16.png)
@@ -29,8 +24,8 @@ Find the shopping site with the least price for a particular product
 ![7](https://user-images.githubusercontent.com/43414928/80920729-65718680-8d8f-11ea-8cf9-f48e86888c6d.png)
 
 
-
 ![8](https://user-images.githubusercontent.com/43414928/80920732-66a2b380-8d8f-11ea-8972-b493b16a53cb.png)
+
 
 Sentimental analysis of the reviews 
 ![9](https://user-images.githubusercontent.com/43414928/80920734-6aced100-8d8f-11ea-9f9a-357adff47b8f.png)
@@ -53,6 +48,7 @@ git clone https://github.com/[yourname]Choose-Smart.git
 ```
 cd Choose-Smart
 ```
+
 * Install all requirements
 ``` 
 pip install -r requirements.txt
@@ -63,8 +59,4 @@ pip install -r requirements.txt
 python3 main.py
 ```
   
-* Copy the localhost url (usually localhost:5000/) and paste in browser
-
-
-
-
+* Copy the localhost URL (usually `http://localhost:5000/`) and paste it in a browser address bar
