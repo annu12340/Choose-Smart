@@ -2,15 +2,21 @@ import re
 from flask import Flask, render_template, request, redirect, session,  url_for
 from flask_sqlalchemy import SQLAlchemy
 from bs4 import BeautifulSoup as soup
-from urllib2 import Request, urlopen as uReq
+#from urllib2 import Request, urlopen as uReq as syntax got changed in python3
+from urllib.request import urlopen as uReq
 import tweepy
 import pandas as pd
+
+#to hash the password and to check the password
+from werkzeug.security import generate_password_hash, check_password_hash
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
 app.config['SECRET_KEY'] = 'the random string'
 db = SQLAlchemy(app)
+
 
 
 class User(db.Model):
@@ -34,7 +40,7 @@ def scrapedata(data):
         #print(data)
         name=[]
         link=[]
-        for i in data:
+        for i in data: 
             name.append(i.get('title'))
             link.append(i.get('href'))
         return (name,link)
@@ -171,12 +177,16 @@ def login():
     else:
         email = request.form['email']
         password = request.form['password']
-        data = User.query.filter_by(email=email,
-                                    password=password).first()
+        #data = User.query.filter_by(email=email,password=password).first()
+        #query based on email and to check whether the password entered by the user is correct or not
+        data = User.query.filter_by(email=email).first()
 
+        #it prints true, if the password entered by user is correct or it prints false
+        print(check_password_hash(data.password, password))
         if data is not None:
             session['user'] = data.id
-            print session['user']
+            #added () for the print statement
+            print(session['user'])
             return redirect(url_for('home'))
         return render_template('incorrect_login.html')
 
@@ -184,8 +194,10 @@ def login():
 @app.route('/register/', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
+
+        #adding the password by hashing it with sha256 algorithm
         new_user = User(email=request.form['email'],
-                        password=request.form['password'])
+                        password=generate_password_hash(request.form['password'],method='sha256'))
         db.session.add(new_user)
         db.session.commit()
         return redirect(url_for('login'))
