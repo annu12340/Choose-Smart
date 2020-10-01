@@ -50,7 +50,7 @@ As consumers, we face a great dilemma in choosing the right product from a wide 
 <kbd> <img src="https://user-images.githubusercontent.com/43414928/80920732-66a2b380-8d8f-11ea-8972-b493b16a53cb.png" width="700" /> </kbd>
 </p>
 
-**Sentimental analysis of the reviews **
+**Sentimental analysis of the reviews**
 
 <p align="center">
  <kbd> <img src="https://user-images.githubusercontent.com/43414928/80920734-6aced100-8d8f-11ea-9f9a-357adff47b8f.png" width="700" /> </kbd>
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 python3 main.py
 ```
   
-* Copy the localhost url (usually localhost:5000/) and paste in browser
+* Copy the *localhost url* (usually *localhost:5000/*) and paste in browser
 
 
 
