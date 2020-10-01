@@ -1,8 +1,8 @@
 # Choose-Smart
-As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice .
+As a customer, you may face a great dilemma in choosing the right product from a wide variety of goods. This application helps you to analyse the product and arrive at a smarter choice .
 
 <br/>  
-The main functionalities 
+The main functionalities are: 
 
 - Provides insight to the consumer about the hazardous effects of the ingredients
 
