@@ -1,19 +1,20 @@
-# Choose-Smart
+<h1 align="center">Choose-Smart </h1>
+
 As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice .
+  
+**The main functionalities**
 
-<br/>  
-The main functionalities 
+- Provides insight to the consumer about the **hazardous effects of the ingredients**
 
-- Provides insight to the consumer about the hazardous effects of the ingredients
+- Suggest the **best deal avaiable** on popular online shopping platform
 
-- Suggest the best deal avaiable on popular online shopping platform
+- **Sentiment analysis** of reviews of a product using Twitter API
 
-- Sentiment analysis of reviews of a product using Twitter API
-
-- Displays all the important laws that a consumer must be aware of
-
+- Displays all the **important laws** that a consumer must be aware of
 
 <hr>  
+
+#### Step to Start :
 
 ![1](https://user-images.githubusercontent.com/43414928/80920713-58ed2e00-8d8f-11ea-97cf-ba429a2ac4e9.png)
 ![2](https://user-images.githubusercontent.com/43414928/80920715-5ab6f180-8d8f-11ea-9db8-769f8588db16.png)
