@@ -14,7 +14,9 @@ As consumers, we face a great dilemma in choosing the right product from a wide 
 
 #### Step to Start :
 
-<img align="center" src="https://user-images.githubusercontent.com/43414928/80920713-58ed2e00-8d8f-11ea-97cf-ba429a2ac4e9.png" width="800" />
+<div >
+<img align="center" src="https://user-images.githubusercontent.com/43414928/80920713-58ed2e00-8d8f-11ea-97cf-ba429a2ac4e9.png" width="700" />
+</div>
 
 ![2](https://user-images.githubusercontent.com/43414928/80920715-5ab6f180-8d8f-11ea-9db8-769f8588db16.png)
 
