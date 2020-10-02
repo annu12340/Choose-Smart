@@ -26,6 +26,9 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [Contact](#contact)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -47,53 +50,64 @@ This section should list any major frameworks that you built your project using.
 * CSS
 * Python
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
+* Fork & Clone the repo
+```
+git clone https://github.com/[yourname]Choose-Smart.git
+```
+
+* Navigate through the project
+```
+cd Choose-Smart
+```
+* Install all requirements
+``` 
+pip install -r requirements.txt
 ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
+* Run :
 ```
-3. Install NPM packages
-```sh
-npm install
+python3 main.py
 ```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
+ 
+* Copy the localhost url (usually localhost:5000/) and paste in browser
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+#### Login & Register Page. 🔒
+![1](https://user-images.githubusercontent.com/43414928/80920713-58ed2e00-8d8f-11ea-97cf-ba429a2ac4e9.png)
+![2](https://user-images.githubusercontent.com/43414928/80920715-5ab6f180-8d8f-11ea-9db8-769f8588db16.png)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+#### Search for the amount of hazardous chemical used in the product.🔍 
+![3](https://user-images.githubusercontent.com/43414928/80920718-5be81e80-8d8f-11ea-8c07-c71fbf458900.png)
+![4](https://user-images.githubusercontent.com/43414928/80920719-5d194b80-8d8f-11ea-9ced-8919e1be2f60.png)
+![5](https://user-images.githubusercontent.com/43414928/80920721-61456900-8d8f-11ea-8dad-f69bd1009e49.png)
 
+#### Find the shopping site with the least price for a particular product 🔎
+![6](https://user-images.githubusercontent.com/43414928/80920723-62769600-8d8f-11ea-888a-adf8b6d49e76.png)
+![7](https://user-images.githubusercontent.com/43414928/80920729-65718680-8d8f-11ea-8cf9-f48e86888c6d.png)
+![8](https://user-images.githubusercontent.com/43414928/80920732-66a2b380-8d8f-11ea-8972-b493b16a53cb.png)
+
+#### Sentimental analysis of the reviews 📈
+![9](https://user-images.githubusercontent.com/43414928/80920734-6aced100-8d8f-11ea-9f9a-357adff47b8f.png)
+
+
+#### Different consumer laws 📜
+![10](https://user-images.githubusercontent.com/43414928/80920742-70c4b200-8d8f-11ea-9c63-091a19f84d62.png)
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/annu12340/Choose-Smart/issues) for a list of proposed features (and known issues).
 
 
 
@@ -110,17 +124,9 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/annu12340/Choose-Smart](https://github.com/annu12340/Choose-Smart)
 
