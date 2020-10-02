@@ -58,7 +58,7 @@ This section should list any major frameworks that you built your project using.
 This is an example of how to list things you need to use the software and how to install them.
 * Fork & Clone the repo
 ```
-git clone https://github.com/[yourname]Choose-Smart.git
+git clone https://github.com/annu12340/Choose-Smart.git
 ```
 
 * Navigate through the project
