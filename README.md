@@ -40,7 +40,7 @@ The main functionalities
 * Sentiment analysis of reviews of a product using Twitter API
 
 * Displays all the important laws that a consumer must be aware of
-## Demo
+### Demo
 
 #### Login & Register Page. 🔒
 ![1](https://user-images.githubusercontent.com/43414928/80920713-58ed2e00-8d8f-11ea-97cf-ba429a2ac4e9.png)
