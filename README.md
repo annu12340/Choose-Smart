@@ -1,70 +1,141 @@
-# Choose-Smart
-As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice .
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-<br/>  
-The main functionalities 
+  <h3 align="center">Best-README-Template</h3>
 
-- Provides insight to the consumer about the hazardous effects of the ingredients
-
-- Suggest the best deal avaiable on popular online shopping platform
-
-- Sentiment analysis of reviews of a product using Twitter API
-
-- Displays all the important laws that a consumer must be aware of
-
-
-<hr>  
-
-![1](https://user-images.githubusercontent.com/43414928/80920713-58ed2e00-8d8f-11ea-97cf-ba429a2ac4e9.png)
-![2](https://user-images.githubusercontent.com/43414928/80920715-5ab6f180-8d8f-11ea-9db8-769f8588db16.png)
-
-Search for the amount of hazardous chemical used in the product
-![3](https://user-images.githubusercontent.com/43414928/80920718-5be81e80-8d8f-11ea-8c07-c71fbf458900.png)
-![4](https://user-images.githubusercontent.com/43414928/80920719-5d194b80-8d8f-11ea-9ced-8919e1be2f60.png)
-![5](https://user-images.githubusercontent.com/43414928/80920721-61456900-8d8f-11ea-8dad-f69bd1009e49.png)
-
-
-Find the shopping site with the least price for a particular product
-![6](https://user-images.githubusercontent.com/43414928/80920723-62769600-8d8f-11ea-888a-adf8b6d49e76.png)
-![7](https://user-images.githubusercontent.com/43414928/80920729-65718680-8d8f-11ea-8cf9-f48e86888c6d.png)
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</p>
 
 
 
-![8](https://user-images.githubusercontent.com/43414928/80920732-66a2b380-8d8f-11ea-8972-b493b16a53cb.png)
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-Sentimental analysis of the reviews 
-![9](https://user-images.githubusercontent.com/43414928/80920734-6aced100-8d8f-11ea-9f9a-357adff47b8f.png)
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
 
-Different consumer laws
-![10](https://user-images.githubusercontent.com/43414928/80920742-70c4b200-8d8f-11ea-9c63-091a19f84d62.png)
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should element DRY principles to the rest of your life :smile:
+
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
+
+### Built With
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [Bootstrap](https://getbootstrap.com)
+* [JQuery](https://jquery.com)
+* [Laravel](https://laravel.com)
 
 
 
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Getting started
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-* Fork & Clone the repo
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+```sh
+npm install npm@latest -g
 ```
-git clone https://github.com/[yourname]Choose-Smart.git
-```
 
-* Navigate through the project
+### Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+```sh
+git clone https://github.com/your_username_/Project-Name.git
 ```
-cd Choose-Smart
+3. Install NPM packages
+```sh
+npm install
 ```
-* Install all requirements
-``` 
-pip install -r requirements.txt
+4. Enter your API in `config.js`
+```JS
+const API_KEY = 'ENTER YOUR API';
 ```
-  
-* Run :
-```
-python3 main.py
-```
-  
-* Copy the localhost url (usually localhost:5000/) and paste in browser
 
 
 
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
