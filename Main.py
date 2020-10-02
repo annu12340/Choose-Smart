@@ -180,10 +180,7 @@ def login():
         #data = User.query.filter_by(email=email,password=password).first()
         #query based on email and to check whether the password entered by the user is correct or not
         data = User.query.filter_by(email=email).first()
-
-        #it prints true, if the password entered by user is correct or it prints false
-        print(check_password_hash(data.password, password))
-        if data is not None:
+        if data is not None  and check_password_hash(data.password, password):
             session['user'] = data.id
             #added () for the print statement
             print(session['user'])
