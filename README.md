@@ -1,3 +1,4 @@
+
 <h1 align="center">Choose-Smart </h1>
 
 As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice .
@@ -74,6 +75,7 @@ git clone https://github.com/[yourname]Choose-Smart.git
 ```
 cd Choose-Smart
 ```
+
 * Install all requirements
 ``` 
 pip install -r requirements.txt
@@ -85,7 +87,3 @@ python3 main.py
 ```
   
 * Copy the *localhost url* (usually *localhost:5000/*) and paste in browser
-
-
-
-
