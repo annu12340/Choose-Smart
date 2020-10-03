@@ -2,9 +2,12 @@ import re
 from flask import Flask, render_template, request, redirect, session,  url_for
 from flask_sqlalchemy import SQLAlchemy
 from bs4 import BeautifulSoup as soup
-from urllib2 import Request, urlopen as uReq
+#from urllib2 import Request, urlopen as uReq as syntax got changed in python3
+from urllib.request import urlopen as uReq
 import tweepy
 import pandas as pd
+#to hash the password and to check the password
+from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -171,12 +174,11 @@ def login():
     else:
         email = request.form['email']
         password = request.form['password']
-        data = User.query.filter_by(email=email,
-                                    password=password).first()
-
-        if data is not None:
+        #query based on email and to check whether the password entered by the user is correct or not
+        data = User.query.filter_by(email=email).first()
+        if data is not None  and check_password_hash(data.password, password):
             session['user'] = data.id
-            print session['user']
+            print(session['user'])
             return redirect(url_for('home'))
         return render_template('incorrect_login.html')
 
@@ -185,7 +187,7 @@ def login():
 def register():
     if request.method == 'POST':
         new_user = User(email=request.form['email'],
-                        password=request.form['password'])
+                        password=generate_password_hash(request.form['password'],method='sha256'))
         db.session.add(new_user)
         db.session.commit()
         return redirect(url_for('login'))
