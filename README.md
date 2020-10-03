@@ -22,7 +22,6 @@
   * [Built With](#built-with)
   * [Demo](#demo)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Contributing](#contributing)
 * [Contact](#contact)
@@ -88,7 +87,6 @@ cd Choose-Smart
 ``` 
 pip install -r requirements.txt
 ```
-
 
 * Run :
 ```
