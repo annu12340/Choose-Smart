@@ -64,7 +64,6 @@ The main functionalities
 ![10](https://user-images.githubusercontent.com/43414928/80920742-70c4b200-8d8f-11ea-9c63-091a19f84d62.png)
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * HTML
 * CSS
 * Python
@@ -72,7 +71,7 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Prerequisites
+### Installation
 
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -90,7 +89,6 @@ cd Choose-Smart
 pip install -r requirements.txt
 ```
 
-### Installation
 
 * Run :
 ```
