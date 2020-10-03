@@ -1,5 +1,5 @@
 <br />
-  <h1 align="center">Choose-Smart🖥️</h3>
+  <h1 align="center">Choose-Smart🖥️</h1>
 
   <p align="center">
     Always confused about where to get the best deals on your favourite things? Don't worry Choose-Smart has come to your rescue
@@ -11,8 +11,6 @@
     ·
     <a href="https://github.com/annu12340/Choose-Smart/issues">Request Feature</a>
   </p>
-</p>
-
 
 
 <!-- TABLE OF CONTENTS -->
