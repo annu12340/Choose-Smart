@@ -1,18 +1,48 @@
-# Choose-Smart🖥️
-As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice .
 
-<br/>  
+  <h1 align="center">Choose-Smart🖥️</h1>
+
+  <p align="center">
+    Always confused about where to get the best deals on your favourite things? Don't worry Choose-Smart has come to your rescue
+    <br />
+    <br />
+    <a href="https://github.com/annu12340/Choose-Smart">View Demo</a>
+    ·
+    <a href="https://github.com/annu12340/Choose-Smart/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/annu12340/Choose-Smart/issues">Request Feature</a>
+  </p>
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Demo](#demo)
+  * [Built With](#built-with)
+  
+* [Getting Started](#getting-started)
+  * [Installation](#installation)
+* [Contributing](#contributing)
+* [Contact](#contact)
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice .
 The main functionalities 
 
-- Provides insight to the consumer about the hazardous effects of the ingredients
+* Provides insight to the consumer about the hazardous effects of the ingredients
 
-- Suggest the best deal avaiable on popular online shopping platform
+* Suggest the best deal avaiable on popular online shopping platform
 
-- Sentiment analysis of reviews of a product using Twitter API
 
-- Displays all the important laws that a consumer must be aware of
+* Sentiment analysis of reviews of a product using Twitter API
 
-# Screenshots
+* Displays all the important laws that a consumer must be aware of
+
+## Screenshots
+
 
 #### Login & Register Page. 🔒
 ![1](https://user-images.githubusercontent.com/43414928/80920713-58ed2e00-8d8f-11ea-97cf-ba429a2ac4e9.png)
@@ -35,14 +65,20 @@ The main functionalities
 #### Different consumer laws 📜
 ![10](https://user-images.githubusercontent.com/43414928/80920742-70c4b200-8d8f-11ea-9c63-091a19f84d62.png)
 
+### Built With
+* HTML
+* CSS
+* Python
 
+<!-- GETTING STARTED -->
+## Getting Started
 
+### Installation
 
-## Getting started ℹ️
-
+This is an example of how to list things you need to use the software and how to install them.
 * Fork & Clone the repo
 ```
-git clone https://github.com/[yourname]Choose-Smart.git
+git clone https://github.com/annu12340/Choose-Smart.git
 ```
 
 * Navigate through the project
@@ -53,10 +89,25 @@ cd Choose-Smart
 ``` 
 pip install -r requirements.txt
 ```
-  
+
 * Run :
 ```
 python3 main.py
 ```
-  
+ 
 * Copy the localhost url (usually localhost:5000/) and paste in browser
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+
