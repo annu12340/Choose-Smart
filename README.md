@@ -1,3 +1,9 @@
+@@ -1,8 +1,3 @@
+# Choose-Smart
+As a customer, you may face a great dilemma in choosing the right product from a wide variety of goods. This application helps you to analyse the product and arrive at a smarter choice .
+
+<br/>  
+The main functionalities are: 
 
 * Provides insight to the consumer about the hazardous effects of the ingredients
 
