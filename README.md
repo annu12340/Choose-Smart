@@ -5,6 +5,39 @@ As a customer, you may face a great dilemma in choosing the right product from a
 <br/>  
 The main functionalities are: 
 
+<h1 align="center">Choose-Smart🖥️</h1>
+
+  <p align="center">
+    Always confused about where to get the best deals on your favourite things? Don't worry Choose-Smart has come to your rescue
+    <br />
+    <br />
+    <a href="https://github.com/annu12340/Choose-Smart">View Demo</a>
+    ·
+    <a href="https://github.com/annu12340/Choose-Smart/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/annu12340/Choose-Smart/issues">Request Feature</a>
+  </p>
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Demo](#demo)
+  * [Built With](#built-with)
+
+* [Getting Started](#getting-started)
+  * [Installation](#installation)
+* [Contributing](#contributing)
+* [Contact](#contact)
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice .
+The main functionalities 
+
 * Provides insight to the consumer about the hazardous effects of the ingredients
 
 * Suggest the best deal avaiable on popular online shopping platform
