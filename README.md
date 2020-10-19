@@ -1,5 +1,11 @@
+@@ -1,8 +1,3 @@
+# Choose-Smart
+As a customer, you may face a great dilemma in choosing the right product from a wide variety of goods. This application helps you to analyse the product and arrive at a smarter choice .
 
-  <h1 align="center">Choose-Smart🖥️</h1>
+<br/>  
+The main functionalities are: 
+
+<h1 align="center">Choose-Smart🖥️</h1>
 
   <p align="center">
     Always confused about where to get the best deals on your favourite things? Don't worry Choose-Smart has come to your rescue
@@ -19,7 +25,7 @@
 * [About the Project](#about-the-project)
   * [Demo](#demo)
   * [Built With](#built-with)
-  
+
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Contributing](#contributing)
